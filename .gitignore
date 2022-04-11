@@ -1,0 +1,17 @@
+\.idea/
+.vs/
+*bin*
+*obj*
+*error.log
+**/obj/
+**/out/
+**/bin/
+*.nuget.g.targets
+
+*.user
+
+\.vscode/
+
+*.yaml
+package-lock\.json
+
