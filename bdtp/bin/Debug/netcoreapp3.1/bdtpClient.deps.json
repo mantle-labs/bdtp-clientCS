@@ -1,0 +1,52 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "bdtpClient/1.0.0": {
+        "dependencies": {
+          "SimpleBase": "3.1.0"
+        },
+        "runtime": {
+          "bdtpClient.dll": {}
+        }
+      },
+      "SimpleBase/3.1.0": {
+        "dependencies": {
+          "System.Memory": "4.5.4"
+        },
+        "runtime": {
+          "lib/netstandard2.1/SimpleBase.dll": {
+            "assemblyVersion": "3.1.0.0",
+            "fileVersion": "3.1.0.0"
+          }
+        }
+      },
+      "System.Memory/4.5.4": {}
+    }
+  },
+  "libraries": {
+    "bdtpClient/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SimpleBase/3.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-nt2rFfQC/FOLvLP6/eFx2C3Z+SuZdynPkrgskGposuAGGVCnvAqYy/8yafOlrV95YDFmuo6fSHaqVlbv6Lfj/Q==",
+      "path": "simplebase/3.1.0",
+      "hashPath": "simplebase.3.1.0.nupkg.sha512"
+    },
+    "System.Memory/4.5.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1MbJTHS1lZ4bS4FmsJjnuGJOu88ZzTT2rLvrhW7Ygic+pC0NWA+3hgAen0HRdsocuQXCkUTdFn9yHJJhsijDXw==",
+      "path": "system.memory/4.5.4",
+      "hashPath": "system.memory.4.5.4.nupkg.sha512"
+    }
+  }
+}

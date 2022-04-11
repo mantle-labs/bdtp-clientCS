@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = bdtpClient_test
+build_property.ProjectDir = /home/nicolas/Documents/bdtpClient/bdtpClient-test/
