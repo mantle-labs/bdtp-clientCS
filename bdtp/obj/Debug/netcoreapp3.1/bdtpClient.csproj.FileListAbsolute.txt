@@ -1,9 +1,0 @@
-/home/nicolas/Documents/mantle/bdtpClient/bdtpClient/bin/Debug/netcoreapp3.1/bdtpClient.deps.json
-/home/nicolas/Documents/mantle/bdtpClient/bdtpClient/bin/Debug/netcoreapp3.1/bdtpClient.dll
-/home/nicolas/Documents/mantle/bdtpClient/bdtpClient/bin/Debug/netcoreapp3.1/bdtpClient.pdb
-/home/nicolas/Documents/mantle/bdtpClient/bdtpClient/obj/Debug/netcoreapp3.1/bdtpClient.csproj.AssemblyReference.cache
-/home/nicolas/Documents/mantle/bdtpClient/bdtpClient/obj/Debug/netcoreapp3.1/bdtpClient.AssemblyInfoInputs.cache
-/home/nicolas/Documents/mantle/bdtpClient/bdtpClient/obj/Debug/netcoreapp3.1/bdtpClient.AssemblyInfo.cs
-/home/nicolas/Documents/mantle/bdtpClient/bdtpClient/obj/Debug/netcoreapp3.1/bdtpClient.csproj.CoreCompileInputs.cache
-/home/nicolas/Documents/mantle/bdtpClient/bdtpClient/obj/Debug/netcoreapp3.1/bdtpClient.dll
-/home/nicolas/Documents/mantle/bdtpClient/bdtpClient/obj/Debug/netcoreapp3.1/bdtpClient.pdb
