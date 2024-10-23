@@ -4,6 +4,8 @@ using System.Linq;
 using System.Net.Sockets;
 using System.Text;
 using System.Threading.Tasks;
+using bdtp.blockchain;
+using HoshoEthUtil;
 
 // ReSharper disable once CheckNamespace
 namespace bdtp
@@ -22,7 +24,7 @@ namespace bdtp
         private static async Task SendData(Stream s, string bdtpAddress, byte[] data)
         {
             var chain = ExtractChain(bdtpAddress);
-            var pointer = ExtractNetworkAddress(bdtpAddress);
+            var pointer = ExtractNetworkAddress(bdtpAddress, System.Text.Encoding.UTF8.GetString(chain));
 
             await s.WriteAsync(chain);
             await s.WriteAsync(pointer);
@@ -64,10 +66,17 @@ namespace bdtp
                 return b.Take(3).ToArray();
         }
 
-        private static byte[] ExtractNetworkAddress(string bdtpAddress)
+        private static byte[] ExtractNetworkAddress(string bdtpAddress, string chain)
         {
             var b = Encoding.UTF8.GetBytes(bdtpAddress).ToArray();
             var pointer = Encoding.UTF8.GetString(b.Skip(3).ToArray());
+            
+            //TODO:create a factory or something
+            if (chain == Blockchain.POL.ToString())
+            {
+                return Encoding.UTF8.GetBytes(pointer);
+            }
+            
             return SimpleBase.Base58.Bitcoin.Decode(pointer).ToArray();
         }
 
