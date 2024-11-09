@@ -2,7 +2,8 @@ namespace bdtp.blockchain
 {
     public enum Blockchain
     {
-        WAV
+        WAV,
+        POL
     }
     public enum BlockchainNet
     {
