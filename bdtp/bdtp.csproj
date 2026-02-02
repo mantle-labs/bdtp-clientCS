@@ -7,7 +7,7 @@
     <ItemGroup>
       <PackageReference Include="Chaos.NaCl.Standard" Version="1.*" />
       <PackageReference Include="HoshoEthUtil" Version="0.1.*" />
-      <PackageReference Include="Nethereum.Web3" Version="4.*" />
+      <PackageReference Include="Nethereum.Web3" Version="5.*" />
       <PackageReference Include="Newtonsoft.Json" Version="13.0.*" />
       <PackageReference Include="NSec.Cryptography" Version="20.*" />
       <PackageReference Include="SHA3" Version="1.0.*" />
